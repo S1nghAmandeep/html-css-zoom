@@ -22,3 +22,54 @@ body {
     padding: 6px;
     border-radius: 5px;
 }
+
+/* video conferenza  */
+
+/* .row > [class^='col'] {
+    border: 1px dashed black;
+    aspect-ratio: 16/9 ;
+    
+} */
+
+.card {
+ padding: 150px 30px 10px 30px;
+} 
+
+.col {
+	flex-basis: calc((100% / 12) * 1);
+}
+
+img {
+    max-height: 100% ;
+}
+
+.row {
+	display: flex;
+}
+
+.row-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.image {
+    aspect-ratio: 16/9;
+    height: 140px;
+    display: block;
+}
+
+.card-body {
+    position: relative;
+}
+
+.caller {
+    position: absolute;
+    background-color: #4A4A4A;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    bottom: 2px;
+    opacity: 0.7;
+}
