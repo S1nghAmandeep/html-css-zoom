@@ -5,5 +5,20 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
+}
+
+/* pulsate per dividere visione */
+.screen-view {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+
+}
+
+.screen-view_button, .zoom-out {
+    background-color: #4A4A4A ;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
 }
